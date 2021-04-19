@@ -1,7 +1,7 @@
 .button {
   width: 182px;
   height: 48px;
-  border-radius: var(--btn-radius);
+  border-radius: var(--b-radius-8);
   background-color: var(--primary-btn-bg-c);
   font-family: Roboto;
   font-size: 16px;
