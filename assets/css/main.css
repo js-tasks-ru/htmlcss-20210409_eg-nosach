@@ -3,3 +3,30 @@
 * {
     font-family: 'Roboto', sans-serif;
 }
+
+:root {
+    /* colors */
+    --white: #fff;
+    --blue-1: #4263EB;
+    --blue-2: #2342C0;
+    --purple-1: #7048E8;
+    --purple-2: #5028C6;
+    --pink: #F784AD;
+    --gray-1: #F8F9FA;
+    --gray-2: #DDE2E5;
+    --gray-3: #ACB5BD;
+    --gray-4: #495057;
+    --gray-5: #212429;
+
+    --half-opacity: .5;
+
+    /* buttons */
+    --primary-btn-bg-c: var(--blue-1);
+    --secondary-btn-bg-c: var(--purple-1);
+    --alternates-btn-bg-c: var(--white);
+    --primary-btn-hover-bg-c: var(--blue-2);
+    --secondary-btn-hover-bg-c: var(--purple-2);
+    --primary-btn-c: var(--white);
+    --alternates-btn-c: var(--gray-4);
+    --btn-radius: 8px;
+}
