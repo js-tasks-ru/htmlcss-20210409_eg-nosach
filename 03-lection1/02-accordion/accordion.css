@@ -4,7 +4,7 @@
   background-color: var(--white);
   border: 1px solid var(--gray-3);
   box-sizing: border-box;
-  border-radius: var(--b-radius-8);
+  border-radius: var(--b-radius);
   padding: 24px 32px;
   padding-right: 50px;
   position: relative;
@@ -30,7 +30,7 @@
 
 .accordion__summary,
 .accordion__text {
-  font-family: 'Inter', sans-serif;
+  font-family: Inter, sans-serif;
   font-size: 16px;
   line-height: 24px;
   font-weight: 400;
@@ -39,10 +39,6 @@
 
 .accordion__summary {
   list-style: none;
-}
-
-.accordion__summary::-webkit-details-marker {
-  display: none
 }
 
 .accordion__text {

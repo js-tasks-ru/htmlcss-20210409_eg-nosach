@@ -1,9 +1,9 @@
 .button {
   display: flex;
   padding: 0 30px;
-  border-radius: var(--b-radius-8);
+  border-radius: var(--b-radius);
   background-color: var(--primary-btn-bg-c);
-  font-family: 'Roboto', sans-serif;
+  font-family: Roboto, sans-serif;
   font-size: 16px;
   font-weight: 500;
   line-height: 48px;
@@ -48,25 +48,8 @@
   cursor: not-allowed;
 }
 
-.button[disabled]:before {
-  content: '';
-  position: absolute;
-  left: 0;
-  right: 0;
-  top: 0;
-  bottom: 0;
-  background-color: var(--alternates-btn-bg-c);
-  opacity: var(--half-opacity);
-}
-
-.button--primary[disabled]:hover {
-  background-color: var(--primary-btn-bg-c);
-}
-
-.button--secondary[disabled]:hover {
-  background-color: var(--secondary-btn-bg-c);
-}
-
-.button--alternate[disabled]:hover {
-  border-color: var(--gray-3);
+.button--primary[disabled],
+.button--secondary[disabled],
+.button--alternate[disabled] {
+  opacity: var(--half-opacity)
 }
