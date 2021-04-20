@@ -1,6 +1,6 @@
 .button {
-  width: 182px;
-  height: 48px;
+  display: flex;
+  padding: 0 30px;
   border-radius: var(--b-radius-8);
   background-color: var(--primary-btn-bg-c);
   font-family: 'Roboto', sans-serif;
@@ -15,7 +15,6 @@
   color: var(--primary-btn-c);
   cursor: pointer;
   transition: background 200ms ease-in-out;
-  padding: 0;
 }
 
 .button--primary {
