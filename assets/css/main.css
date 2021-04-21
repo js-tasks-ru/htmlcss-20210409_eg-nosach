@@ -21,6 +21,11 @@
 
     --half-opacity: .5;
     --b-radius: 8px;
+    --border-c: var(--gray-3);
+
+    --primary-text-c: var(--gray-5);
+    --secondary-text-c: var(--gray-4);
+    --link-text-c: var(--blue-1);
 
     /* buttons */
     --primary-btn-bg-c: var(--blue-1);

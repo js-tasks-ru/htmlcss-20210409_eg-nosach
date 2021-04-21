@@ -28,7 +28,7 @@
 .button--alternate {
   color: var(--alternates-btn-c);
   background-color: var(--alternates-btn-bg-c);
-  border: 1px solid var(--gray-3);
+  border: 1px solid var(--border-c);
 }
 
 .button--primary:hover {

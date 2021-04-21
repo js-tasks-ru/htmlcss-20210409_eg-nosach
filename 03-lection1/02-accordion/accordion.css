@@ -2,7 +2,7 @@
   width: 730px;
   height: 72px;
   background-color: var(--white);
-  border: 1px solid var(--gray-3);
+  border: 1px solid var(--border-c);
   box-sizing: border-box;
   border-radius: var(--b-radius);
   padding: 24px 32px;
