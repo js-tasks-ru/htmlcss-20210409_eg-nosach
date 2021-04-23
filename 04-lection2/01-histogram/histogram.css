@@ -5,7 +5,6 @@
   flex-direction: column;
   background-color: var(--white);
   border: 1px solid var(--border-c);
-  box-sizing: border-box;
   border-radius: var(--b-radius);
   padding: 24px;
   padding-top: 16px;

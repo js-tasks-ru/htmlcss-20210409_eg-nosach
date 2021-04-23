@@ -10,7 +10,6 @@
   letter-spacing: 0em;
   text-align: center;
   border: none;
-  box-sizing: border-box;
   text-transform: capitalize;
   color: var(--primary-btn-c);
   cursor: pointer;
