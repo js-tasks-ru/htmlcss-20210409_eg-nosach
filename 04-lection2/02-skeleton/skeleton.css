@@ -1,0 +1,45 @@
+.skeleton {
+  width: 580px;
+  height: 192px;
+  background-color: var(--white);
+  padding: 24px 40px 32px 24px;
+  border: 1px solid var(--border-c);
+  border-radius: var(--b-radius);
+}
+
+.skeleton__head {
+  display: flex;
+  align-items: center;
+  margin-bottom: 24px;
+}
+
+.skeleton__circle {
+  width: 64px;
+  height: 64px;
+  background-color: var(--gray-2);
+  margin-right: 16px;
+  border-radius: var(--b-radius-half);
+}
+
+.skeleton__wrap {
+  flex: 1;
+}
+
+.skeleton__line {
+  margin-bottom: 8px;
+  height: 20px;
+  width: 100%;
+  background: var(--skeleton-line-gradient);
+}
+
+.skeleton__line--half {
+  width: 50%;
+}
+
+.skeleton__line--quarter {
+  width: 40%;
+}
+
+.skeleton__line:last-child {
+  margin-bottom: 0;
+}

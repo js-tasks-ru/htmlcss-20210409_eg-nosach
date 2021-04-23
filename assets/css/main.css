@@ -1,6 +1,14 @@
 @import './normalize.css';
 @import '../fonts/fonts.css';
 
+html {
+    box-sizing: border-box;
+}
+
+*, *:before, *:after {
+    box-sizing: inherit;
+}
+
 * {
     font-family: Roboto, sans-serif;
 }
@@ -21,8 +29,11 @@
 
     --half-opacity: .5;
     --b-radius: 8px;
+    --b-radius-half: 50%;
     --border-c: var(--gray-3);
+    --skeleton-line-gradient: linear-gradient(92.51deg, #DDE2E5 6.44%, #E2E6E8 38.47%, #F3F5F5 56.48%, #E3E7EA 77.5%, #DDE2E5 102.52%);
 
+    /* text colors */
     --primary-text-c: var(--gray-5);
     --secondary-text-c: var(--gray-4);
     --link-text-c: var(--blue-1);
