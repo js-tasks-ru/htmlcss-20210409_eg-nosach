@@ -1,5 +1,49 @@
+@import './normalize.css';
 @import '../fonts/fonts.css';
 
+html {
+    box-sizing: border-box;
+}
+
+*, *:before, *:after {
+    box-sizing: inherit;
+}
+
 * {
-    font-family: 'Roboto', sans-serif;
+    font-family: Roboto, sans-serif;
+}
+
+:root {
+    /* colors */
+    --white: #fff;
+    --blue-1: #4263EB;
+    --blue-2: #2342C0;
+    --purple-1: #7048E8;
+    --purple-2: #5028C6;
+    --pink: #F784AD;
+    --gray-1: #F8F9FA;
+    --gray-2: #DDE2E5;
+    --gray-3: #ACB5BD;
+    --gray-4: #495057;
+    --gray-5: #212429;
+
+    --half-opacity: .5;
+    --b-radius: 8px;
+    --b-radius-half: 50%;
+    --border-c: var(--gray-3);
+    --skeleton-line-gradient: linear-gradient(92.51deg, #DDE2E5 6.44%, #E2E6E8 38.47%, #F3F5F5 56.48%, #E3E7EA 77.5%, #DDE2E5 102.52%);
+
+    /* text colors */
+    --primary-text-c: var(--gray-5);
+    --secondary-text-c: var(--gray-4);
+    --link-text-c: var(--blue-1);
+
+    /* buttons */
+    --primary-btn-bg-c: var(--blue-1);
+    --secondary-btn-bg-c: var(--purple-1);
+    --alternates-btn-bg-c: var(--white);
+    --primary-btn-hover-bg-c: var(--blue-2);
+    --secondary-btn-hover-bg-c: var(--purple-2);
+    --primary-btn-c: var(--white);
+    --alternates-btn-c: var(--gray-4);
 }
