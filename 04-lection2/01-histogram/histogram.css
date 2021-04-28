@@ -11,7 +11,7 @@
 
 .histogram__title {
   font-family: Inter, sans-serif;
-  font-weight: normal;
+  font-weight: 400;
   font-size: 16px;
   line-height: 24px;
   color: var(--text-c-secondary);
@@ -27,7 +27,7 @@
 
 .histogram__link {
   font-family: Inter, sans-serif;
-  font-weight: normal;
+  font-weight: 400;
   font-size: 16px;
   line-height: 21px;
   color: var(--text-c-link);
@@ -37,7 +37,7 @@
 
 .histogram__count {
   font-family: Inter, sans-serif;
-  font-weight: normal;
+  font-weight: 400;
   font-size: 20px;
   line-height: 26px;
   color: var(--text-c-primary);
