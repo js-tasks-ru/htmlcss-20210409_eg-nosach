@@ -39,7 +39,7 @@
 }
 
 .button--alternate:hover {
-  border-color: var(--black);
+  border-color: var(--text-c-primary);
 }
 
 .button[disabled] {
