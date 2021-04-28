@@ -2,7 +2,7 @@
   display: flex;
   padding: 0 30px;
   border-radius: var(--b-radius);
-  background-color: var(--primary-btn-bg-c);
+  background-color: var(--primary);
   font-family: Roboto, sans-serif;
   font-size: 16px;
   font-weight: 500;
@@ -11,35 +11,35 @@
   text-align: center;
   border: none;
   text-transform: capitalize;
-  color: var(--primary-btn-c);
+  color: var(--white);
   cursor: pointer;
   transition: background 200ms ease-in-out;
 }
 
 .button--primary {
-  background-color: var(--primary-btn-bg-c);
+  background-color: var(--primary);
 }
 
 .button--secondary {
-  background-color: var(--secondary-btn-bg-c);
+  background-color: var(--secondary);
 }
 
 .button--alternate {
-  color: var(--alternates-btn-c);
-  background-color: var(--alternates-btn-bg-c);
-  border: 1px solid var(--border-c);
+  color: var(--text-c-secondary);
+  background-color: var(--white);
+  border: 1px solid var(--b-color);
 }
 
 .button--primary:hover {
-  background-color: var(--primary-btn-hover-bg-c);
+  background-color: var(--primary-darken);
 }
 
 .button--secondary:hover {
-  background-color: var(--secondary-btn-hover-bg-c);
+  background-color: var(--secondary-darken);
 }
 
 .button--alternate:hover {
-  border-color: var(--gray-5);
+  border-color: var(--black);
 }
 
 .button[disabled] {
