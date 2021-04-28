@@ -20,7 +20,7 @@ html {
     --primary-s: 81%;
     --primary-l: 59%;
     --primary: hsl(var(--primary-h), var(--primary-s), var(--primary-l));
-    --primary-lighten: hsl(var(--primary-h), var(--primary-s), calc(var(--primary-l) + 10%));
+    --primary-lighten: hsl(var(--primary-h), var(--primary-s), calc(var(--primary-l) + 10%), .2);
     --primary-darken: hsl(var(--primary-h), calc(var(--primary-s) - 12%), calc(var(--primary-l) - 14%));
     --secondary-h: 255;
     --secondary-s: 78%;
