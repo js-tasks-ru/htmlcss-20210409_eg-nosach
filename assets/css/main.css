@@ -35,7 +35,8 @@ html {
     --gray-4: #495057;
 
     /* other */
-    --b-radius: 8px;
+    --b-radius-md: 8px;
+    --b-radius-xs: 10px;
     --b-radius-half: 50%;
     --b-color: var(--gray-3);
     --half-opacity: .5;

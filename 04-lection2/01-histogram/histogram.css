@@ -4,7 +4,7 @@
   flex-direction: column;
   background-color: var(--white);
   border: 1px solid var(--b-color);
-  border-radius: var(--b-radius);
+  border-radius: var(--b-radius-md);
   padding: 24px;
   padding-top: 16px;
 }

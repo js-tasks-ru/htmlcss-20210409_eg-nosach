@@ -3,7 +3,7 @@
   background-color: var(--white);
   padding: 24px 40px 32px 24px;
   border: 1px solid var(--b-color);
-  border-radius: var(--b-radius);
+  border-radius: var(--b-radius-md);
 }
 
 .skeleton__head {
