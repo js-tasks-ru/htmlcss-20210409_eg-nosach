@@ -1,10 +1,166 @@
 <!DOCTYPE html>
-<!-- Главная страница -->
-<html lang="ru">
+<html lang="en">
     <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="./assets/css/normalize.css">
         <link rel="stylesheet" href="./assets/css/main.css">
+        <link rel="stylesheet" href="./03-lection1/01-button/button.css">
+        <link rel="stylesheet" href="./components/page.css">
+        <link rel="stylesheet" href="./components/header.css">
+        <link rel="stylesheet" href="./components/footer.css">
+        <link rel="stylesheet" href="./components/main.css">
+        <link rel="stylesheet" href="./components/preview-grid.css">
+        <link rel="stylesheet" href="./components/card.css">
+        <link rel="stylesheet" href="./components/container.css">
+        <link rel="stylesheet" href="./components/tabs.css">
+        <link rel="stylesheet" href="../components/sidebar.css">
+        <link rel="stylesheet" href="../components/preview-component.css">
+        <link rel="stylesheet" href="./04-lection2/01-histogram/histogram.css">
+        <link rel="stylesheet" href="./05-lection3/03-calendar/calendar.css">
     </head>
-    <body>
+    <body class="page">
+        <header class="header">
+            <div class="container">
+                <div class="header__top">
+                    <div class="header__toggle-menu">
+                        <img src="./assets/images/menu.svg" alt="hamburger menu">
+                    </div>
+                    <a href="./index.html" class="header__logo">
+                        <img src="./assets/images/logo.svg" />
+                    </a>
+                    <nav class="header__list">
+                        <a href="#" class="header__item header__item--active">Components</a>
+                        <a href="#" class="header__item">About</a>
+                        <a href="#" class="header__item">Contact</a>
+                    </nav>
+                    <!-- <div class="header__theme"></div> -->
+                </div>
+                <!-- <div class="header__mobile-menu mobile-menu"></div> -->
+            </div>
+        </header>
+        <section class="tabs">
+            <div class="container">
+                <h1 class="tabs__title">Reusable component library</h1>
+                <nav class="tabs__list">
+                    <a href="#" class="tabs__item tabs__item--active">All components</a>
+                    <a href="#" class="tabs__item">Elements</a>
+                    <a href="#" class="tabs__item">Containers</a>
+                    <a href="#" class="tabs__item">Templates</a>
+                </nav>
+            </div>
+        </section>
+        <main class="page__main">
+            <div class="preview-grid container">
+                <!--<div class="card">
+                    <div class="card__content">
+                        <div class="histogram">
+                            <header class="histogram__head">
+                                <h3 class="histogram__title">Total orders</h3>
+                                <a href="" class="histogram__link">View all</a>
+                            </header>
+                            <span class="histogram__count">50254</span>
+                            <div class="histogram__graph">
+                                <span class="histogram__column" style="height: 100%;"></span>
+                                <span class="histogram__column" style="height: 60%;"></span>
+                                <span class="histogram__column" style="height: 10%;"></span>
+                                <span class="histogram__column" style="height: 30%;"></span>
+                                <span class="histogram__column" style="height: 70%"></span>
+                                <span class="histogram__column" style="height: 30%;"></span>
+                                <span class="histogram__column" style="height: 60%;"></span>
+                                <span class="histogram__column" style="height: 40%;"></span>
+                                <span class="histogram__column" style="height: 100%;"></span>
+                                <span class="histogram__column" style="height: 70%;"></span>
+                                <span class="histogram__column" style="height: 20%;"></span>
+                                <span class="histogram__column" style="height: 60%;"></span>
+                                <span class="histogram__column" style="height: 10%;"></span>
+                                <span class="histogram__column" style="height: 30%;"></span>
+                                <span class="histogram__column" style="height: 70%;"></span>
+                                <span class="histogram__column" style="height: 100%;"></span>
+                                <span class="histogram__column" style="height: 60%;"></span>
+                                <span class="histogram__column" style="height: 10%;"></span>
+                                <span class="histogram__column" style="height: 30%;"></span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card__footer">
+                        <h3 class="card__title">Histogram</h3>
+                        <p class="card__text">Element</p>
+                    </div>
+                </div>-->
 
+                <a class="card" href="./pages/calendar-page.html">
+                    <div class="card__content">
+                        <div class="calendar">
+                            <div class="calendar__header">October 2019</div>
+                            <div class="calendar__body">
+                                <div class="calendar__items">
+                                    <div class="calendar__item calendar__item--days">Mon</div>
+                                    <div class="calendar__item calendar__item--days">Tue</div>
+                                    <div class="calendar__item calendar__item--days">Wed</div>
+                                    <div class="calendar__item calendar__item--days">Thu</div>
+                                    <div class="calendar__item calendar__item--days">Fri</div>
+                                    <div class="calendar__item calendar__item--days">Sat</div>
+                                    <div class="calendar__item calendar__item--days">Sun</div>
+                                </div>
+                                <div class="calendar__items">
+                                    <div class="calendar__item">1</div>
+                                    <div class="calendar__item">2</div>
+                                    <div class="calendar__item">3</div>
+                                    <div class="calendar__item">4</div>
+                                    <div class="calendar__item">5</div>
+                                    <div class="calendar__item">6</div>
+                                    <div class="calendar__item">7</div>
+                                    <div class="calendar__item">8</div>
+                                    <div class="calendar__item">9</div>
+                                    <div class="calendar__item">10</div>
+                                    <div class="calendar__item">11</div>
+                                    <div class="calendar__item">12</div>
+                                    <div class="calendar__item">13</div>
+                                    <div class="calendar__item">14</div>
+                                    <div class="calendar__item">15</div>
+                                    <div class="calendar__item">16</div>
+                                    <div class="calendar__item">17</div>
+                                    <div class="calendar__item calendar__item--from">18</div>
+                                    <div class="calendar__item">19</div>
+                                    <div class="calendar__item">20</div>
+                                    <div class="calendar__item calendar__item--to">21</div>
+                                    <div class="calendar__item">22</div>
+                                    <div class="calendar__item">23</div>
+                                    <div class="calendar__item">24</div>
+                                    <div class="calendar__item">25</div>
+                                    <div class="calendar__item">26</div>
+                                    <div class="calendar__item">27</div>
+                                    <div class="calendar__item">28</div>
+                                    <div class="calendar__item">29</div>
+                                    <div class="calendar__item">30</div>
+                                    <div class="calendar__item">31</div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card__footer">
+                        <h3 class="card__title">Calendar</h3>
+                        <p class="card__text">Container</p>
+                    </div>
+                </a>
+
+                <!-- <div class="card">
+                    <div class="card__content"></div>
+                    <div class="card__footer">
+                        <h3 class="card__title">Test</h3>
+                        <p class="card__text">Element</p>
+                    </div>
+                </div> -->
+            </div>
+        </main>
+        <footer class="footer">
+            <div class="footer__inner">
+                <h2 class="footer__title">About</h2>
+                <p class="footer__text">This project is a collection of professionally designed, pre-built, fully responsive HTML snippets you can drop into your projects. Get started by checking out our free preview components, or browsing the PNG previews in the categories you're most curious about.</p>
+            </div>
+        </footer>
+        <script src="./assets/js/index.js"></script>
     </body>
 </html>

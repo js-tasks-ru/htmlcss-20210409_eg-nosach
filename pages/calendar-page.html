@@ -1,0 +1,255 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <link rel="stylesheet" href="../assets/css/normalize.css">
+  <link rel="stylesheet" href="../assets/css/main.css">
+  <link rel="stylesheet" href="../assets/css/theme.css">
+
+  <link rel="stylesheet" href="../03-lection1/01-button/button.css">
+  <link rel="stylesheet" href="../04-lection2/01-histogram/histogram.css">
+  <link rel="stylesheet" href="../05-lection3/03-calendar/calendar.css">
+
+  <link rel="stylesheet" href="../components/page.css">
+  <link rel="stylesheet" href="../components/header.css">
+  <link rel="stylesheet" href="../components/footer.css">
+  <link rel="stylesheet" href="../components/preview-grid.css">
+  <link rel="stylesheet" href="../components/card.css">
+  <link rel="stylesheet" href="../components/container.css">
+  <link rel="stylesheet" href="../components/tabs.css">
+  <link rel="stylesheet" href="../components/sidebar.css">
+  <link rel="stylesheet" href="../components/preview-component.css">
+</head>
+<body class="page">
+  <header class="header header--component">
+    <div class="container">
+        <div class="header__top">
+            <div class="header__toggle-menu">
+                <img src="../assets/images/menu.svg" alt="hamburger menu">
+            </div>
+            <a href="../index.html" class="header__logo">
+                <img src="../assets/images/logo.svg" />
+            </a>
+            <nav class="header__list">
+                <a href="#" class="header__item header__item--active">Components</a>
+                <a href="#" class="header__item">About</a>
+                <a href="#" class="header__item">Contact</a>
+            </nav>
+            <!-- <div class="header__theme"></div> -->
+        </div>
+        <!-- <div class="header__mobile-menu mobile-menu"></div> -->
+    </div>
+  </header>
+  <main class="page__main page__main--component">
+    <div class="container container--component">
+      <div class="page__inner">
+        <aside class="sidebar">
+          <h4 class="sidebar__title">Components</h4>
+          <nav class="sidebar__list">
+            <a href="" class="sidebar__item sidebar__item--active">Calendar</a></li>
+            <a href="" class="sidebar__item">Histogram</a></li>
+            <a href="" class="sidebar__item">Buttons</a></li>
+          </ul>
+        </aside>
+        <div class="preview-component">
+          <h3 class="preview-component__title">Calendar</h3>
+          <div class="preview-component__inner">
+            <div class="calendar">
+              <div class="calendar__header">October 2019</div>
+              <div class="calendar__body">
+                  <div class="calendar__items">
+                      <div class="calendar__item calendar__item--days">Mon</div>
+                      <div class="calendar__item calendar__item--days">Tue</div>
+                      <div class="calendar__item calendar__item--days">Wed</div>
+                      <div class="calendar__item calendar__item--days">Thu</div>
+                      <div class="calendar__item calendar__item--days">Fri</div>
+                      <div class="calendar__item calendar__item--days">Sat</div>
+                      <div class="calendar__item calendar__item--days">Sun</div>
+                  </div>
+                  <div class="calendar__items">
+                      <div class="calendar__item">1</div>
+                      <div class="calendar__item">2</div>
+                      <div class="calendar__item">3</div>
+                      <div class="calendar__item">4</div>
+                      <div class="calendar__item">5</div>
+                      <div class="calendar__item">6</div>
+                      <div class="calendar__item">7</div>
+                      <div class="calendar__item">8</div>
+                      <div class="calendar__item">9</div>
+                      <div class="calendar__item">10</div>
+                      <div class="calendar__item">11</div>
+                      <div class="calendar__item">12</div>
+                      <div class="calendar__item">13</div>
+                      <div class="calendar__item">14</div>
+                      <div class="calendar__item">15</div>
+                      <div class="calendar__item">16</div>
+                      <div class="calendar__item">17</div>
+                      <div class="calendar__item calendar__item--from">18</div>
+                      <div class="calendar__item">19</div>
+                      <div class="calendar__item">20</div>
+                      <div class="calendar__item calendar__item--to">21</div>
+                      <div class="calendar__item">22</div>
+                      <div class="calendar__item">23</div>
+                      <div class="calendar__item">24</div>
+                      <div class="calendar__item">25</div>
+                      <div class="calendar__item">26</div>
+                      <div class="calendar__item">27</div>
+                      <div class="calendar__item">28</div>
+                      <div class="calendar__item">29</div>
+                      <div class="calendar__item">30</div>
+                      <div class="calendar__item">31</div>
+                  </div>
+              </div>
+            </div>
+          </div>
+          <section class="preview-component__tabs tabs">
+            <div class="preview-component__inner">
+                <nav class="tabs__list">
+                    <span class="tabs__item tabs__item--active js-tabs-item">HTML</span>
+                    <span class="tabs__item js-tabs-item">CSS</span>
+                </nav>
+            </div>
+          </section>
+          <div class="preview-component__inner">
+
+            <!-- code -->
+
+            <pre class="preview-component__code js-tabs-content" data-code="0">
+              <code data-language="html">
+                <div class="calendar">
+                  <div class="calendar__header">October 2019</div>
+                  <div class="calendar__body">
+                      <div class="calendar__items">
+                          <div class="calendar__item calendar__item--days">Mon</div>
+                          <div class="calendar__item calendar__item--days">Tue</div>
+                          <div class="calendar__item calendar__item--days">Wed</div>
+                          <div class="calendar__item calendar__item--days">Thu</div>
+                          <div class="calendar__item calendar__item--days">Fri</div>
+                          <div class="calendar__item calendar__item--days">Sat</div>
+                          <div class="calendar__item calendar__item--days">Sun</div>
+                      </div>
+                      <div class="calendar__items">
+                          <div class="calendar__item">1</div>
+                          <div class="calendar__item">2</div>
+                          <div class="calendar__item">3</div>
+                          <div class="calendar__item">4</div>
+                          <div class="calendar__item">5</div>
+                          <div class="calendar__item">6</div>
+                          <div class="calendar__item">7</div>
+                          <div class="calendar__item">8</div>
+                          <div class="calendar__item">9</div>
+                          <div class="calendar__item">10</div>
+                          <div class="calendar__item">11</div>
+                          <div class="calendar__item">12</div>
+                          <div class="calendar__item">13</div>
+                          <div class="calendar__item">14</div>
+                          <div class="calendar__item">15</div>
+                          <div class="calendar__item">16</div>
+                          <div class="calendar__item">17</div>
+                          <div class="calendar__item calendar__item--from">18</div>
+                          <div class="calendar__item">19</div>
+                          <div class="calendar__item">20</div>
+                          <div class="calendar__item calendar__item--to">21</div>
+                          <div class="calendar__item">22</div>
+                          <div class="calendar__item">23</div>
+                          <div class="calendar__item">24</div>
+                          <div class="calendar__item">25</div>
+                          <div class="calendar__item">26</div>
+                          <div class="calendar__item">27</div>
+                          <div class="calendar__item">28</div>
+                          <div class="calendar__item">29</div>
+                          <div class="calendar__item">30</div>
+                          <div class="calendar__item">31</div>
+                      </div>
+                  </div>
+                </div>
+              </code>
+              
+            </pre>
+
+            <!-- code end -->
+            <!-- code -->
+
+            <pre class="preview-component__code js-tabs-content" data-code="1">
+              <code data-language="css">
+                .calendar {
+                  min-width: 200px;
+                  max-width: 300px;
+                  border-radius: var(--b-radius);
+                  background-color: var(--white);
+                  border: 1px solid var(--b-color);
+                  padding: 28px 30px 10px;
+                }
+                
+                .calendar__header {
+                  margin-bottom: 24px;
+                  font-family: Inter, sans-serif;
+                  font-weight: 600;
+                  font-size: 20px;
+                  line-height: 24px;
+                  color: var(--text-c-primary);
+                  text-align: center;
+                }
+                
+                .calendar__body {
+                  width: 100%;
+                  padding-bottom: 100%;
+                  height: 0;
+                }
+                
+                .calendar__items {
+                  display: grid;
+                  grid-template-columns: repeat(7, 1fr);
+                }
+                
+                .calendar__item {
+                  text-align: center;
+                  line-height: 36px;
+                  color: var(--text-c-primary);
+                  font-family: SourceSansPro, sans-serif;
+                  font-size: 16px;
+                }
+                
+                .calendar__item--days {
+                  color: var(--gray-3);
+                  font-family: Inter, sans-serif;
+                  font-size: 14px;
+                }
+                
+                .calendar__item--from ~ .calendar__item {
+                  background-color: var(--primary-lighten);
+                }
+                
+                .calendar__item--to ~ .calendar__item {
+                  background-color: transparent;
+                }
+                
+                .calendar__item--from,
+                .calendar__item.calendar__item--to {
+                  color: var(--white);
+                  background-color: var(--primary);
+                }
+              </code>
+            </pre>
+
+            <!-- code end -->
+
+
+          </div>
+        </div>
+      </div>
+    </div>
+  </main>
+  <footer class="footer footer--component-page">
+    <h5 class="footer__title">Reusable component library</h5>
+  </footer>
+
+  <script src="../assets/js/libs/rainbow.min.js"></script>
+  <script src="../assets/js/libs/html.js"></script>
+  <script src="../assets/js/libs/css.js"></script>
+  <script src="../assets/js/index.js"></script>
+</body>
+</html>
