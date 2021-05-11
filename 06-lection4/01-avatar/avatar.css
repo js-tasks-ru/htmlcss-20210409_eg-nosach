@@ -1,0 +1,22 @@
+.avatar {
+  height: 0;
+  padding-bottom: 100%;
+  position: relative;
+  width: 100%;
+}
+
+.avatar__wrap {
+  border-radius: var(--b-radius-half);
+  bottom: 0;
+  left: 0;
+  overflow: hidden;
+  position: absolute;
+  right: 0;
+  top: 0;
+}
+
+.avatar__img {
+  height: 100%;
+  object-fit: cover;
+  width: 100%;
+}
