@@ -3,16 +3,51 @@
     <head>
         <link rel="stylesheet" href="../../assets/css/main.css">
         <link rel="stylesheet" href="./checkbox.css">
+        <style>
+            .wrap {
+                margin-left: 20px;
+                margin-top: 20px;
+            }
+            .wrap__item {
+                margin-bottom: 10px;
+            }
+        </style>
     </head>
     <body>
-        <label class="checkbox" style="margin-left: 20px; margin-top: 20px;">
-            <input type="checkbox" class="checkbox__input" />
-            <div class="checkbox__icon">
-                <svg class="checkbox__checkmark">
-                    <use xlink:href="../../assets/images/sprites.svg#check"></use>
-                </svg>
+        <div class="wrap">
+            <div class="wrap__item">
+                <label class="checkbox">
+                    <input type="checkbox" class="checkbox__input" />
+                    <div class="checkbox__icon">
+                        <svg class="checkbox__checkmark">
+                            <use xlink:href="../../assets/images/sprites.svg#check"></use>
+                        </svg>
+                    </div>
+                    <p class="checkbox__text">Default</p>
+                </label>
             </div>
-            <p class="checkbox__text">text</p>
-        </label>
+            <div class="wrap__item">
+                <label class="checkbox">
+                    <input type="checkbox" class="checkbox__input" checked />
+                    <div class="checkbox__icon">
+                        <svg class="checkbox__checkmark">
+                            <use xlink:href="../../assets/images/sprites.svg#check"></use>
+                        </svg>
+                    </div>
+                    <p class="checkbox__text">Checked</p>
+                </label>
+            </div>
+            <div class="wrap__item">
+                <label class="checkbox">
+                    <input type="checkbox" class="checkbox__input" disabled />
+                    <div class="checkbox__icon">
+                        <svg class="checkbox__checkmark">
+                            <use xlink:href="../../assets/images/sprites.svg#check"></use>
+                        </svg>
+                    </div>
+                    <p class="checkbox__text">Disabled</p>
+                </label>
+            </div>
+        </div>
     </body>
 </html>
