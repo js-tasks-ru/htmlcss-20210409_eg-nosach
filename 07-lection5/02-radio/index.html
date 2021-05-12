@@ -1,11 +1,47 @@
 <!DOCTYPE html>
-<!-- Страница радио -->
 <html lang="ru">
     <head>
         <link rel="stylesheet" href="../../assets/css/main.css">
         <link rel="stylesheet" href="./radio.css">
+        <style>
+            .wrap {
+                margin-left: 20px;
+                margin-top: 20px;
+            }
+            .wrap__item {
+                margin-bottom: 10px;
+            }
+        </style>
     </head>
     <body>
-
+        <div class="wrap">
+            <div class="wrap__item">
+                <label class="radio">
+                    <input type="radio" class="radio__input">
+                    <div class="radio__icon">
+                        <span class="radio__checkmark"></span>
+                    </div>
+                    <p class="radio__text">Default</p>
+                </label>
+            </div>
+            <div class="wrap__item">
+                <label class="radio">
+                    <input type="radio" class="radio__input" checked>
+                    <div class="radio__icon">
+                        <span class="radio__checkmark"></span>
+                    </div>
+                    <p class="radio__text">Checked</p>
+                </label>
+            </div>
+            <div class="wrap__item">
+                <label class="radio">
+                    <input type="radio" class="radio__input" disabled>
+                    <div class="radio__icon">
+                        <span class="radio__checkmark"></span>
+                    </div>
+                    <p class="radio__text">Disabled</p>
+                </label>
+            </div>
+        </div>
     </body>
 </html>
