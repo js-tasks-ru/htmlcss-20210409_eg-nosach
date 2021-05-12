@@ -36,6 +36,7 @@ html {
     --gray-5: #C4C4C4;
 
     /* other */
+    --b-radius-sm: 4px;
     --b-radius-md: 8px;
     --b-radius-xs: 10px;
     --b-radius-half: 50%;
