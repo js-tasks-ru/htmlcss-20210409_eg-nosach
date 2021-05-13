@@ -29,6 +29,7 @@
   transform: translate(-50%, -120%);
   visibility: hidden;
   white-space: nowrap;
+  pointer-events: none;
 }
 
 .tooltip__content:before {
@@ -41,7 +42,6 @@
   transform: translate(-50%, 100%);
 }
 
-.tooltip__icon:hover + .tooltip__content,
-.tooltip__content:hover {
+.tooltip__icon:hover + .tooltip__content {
   visibility: visible;
 }
