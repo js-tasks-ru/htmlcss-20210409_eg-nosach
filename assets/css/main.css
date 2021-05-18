@@ -49,10 +49,6 @@ html {
     --text-c-active: var(--black);
 }
 
-.active {
-    display: flex !important;
-}
-
 /* media template */
 /* @media screen and (min-width: 576px) {}
 @media screen and (min-width: 768px) {}
