@@ -48,9 +48,3 @@ html {
     --text-c-link: var(--primary);
     --text-c-active: var(--black);
 }
-
-/* media template */
-/* @media screen and (min-width: 576px) {}
-@media screen and (min-width: 768px) {}
-@media screen and (min-width: 992px) {}
-@media screen and (min-width: 1200px) {} */
