@@ -14,7 +14,7 @@
 
 .tooltip__content {
   background: var(--primary);
-  border-radius: var(--b-radius-xs);
+  border-radius: var(--b-radius-lg);
   color: var(--gray-2);
   font-family: Inter, sans-serif;
   font-size: 16px;

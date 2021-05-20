@@ -20,7 +20,7 @@
 .toggler__icon {
   position: relative;
   background-color: var(--white);
-  border-radius: var(--b-radius-xxs);
+  border-radius: var(--b-radius-xlg);
   border: 1px solid var(--gray-2);
   cursor: pointer;
   height: 28px;
