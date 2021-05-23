@@ -1,0 +1,74 @@
+.tabs__input {
+  visibility: hidden;
+  height: 0;
+}
+
+.tabs__title {
+  color: var(--gray-4);
+  font-family: Inter, sans-serif;
+  font-size: 28px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 38px;
+  margin: 32px 0 32px;
+}
+
+.tabs__list {
+  align-items: center;
+  display: flex;
+  overflow-x: scroll;
+}
+
+.tabs__list::-webkit-scrollbar {
+  background: transparent;
+  height: 0;
+}
+
+.tabs__item {
+  border-bottom: 5px solid transparent;
+  color: var(--gray-3);
+  cursor: pointer;
+  font-family: Inter;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: normal;
+  line-height: 24px;
+  margin-right: 24px;
+  padding-bottom: 8px;
+  text-decoration: none;
+  white-space: nowrap;
+}
+
+.tabs__item:last-child {
+  margin-right: 0;
+}
+
+.tabs__divider {
+  background-color: var(--gray-2);
+  height: 1px;
+  left: 50%;
+  position: absolute;
+  transform: translateX(-50%);
+  width: 100vw;
+}
+
+@media screen and (min-width: 1200px) {
+  .tabs__title {
+    color: var(--black);
+    font-size: 50px;
+    font-weight: 500;
+    line-height: 64px;
+    margin: 16px 0 40px;
+  }
+}
+
+#tab-1:checked ~ .tabs__list .tabs__item[for="tab-1"],
+#tab-2:checked ~ .tabs__list .tabs__item[for="tab-2"] {
+  border-color: var(--black);
+  color: var(--black);
+}
+
+#tab-1:checked ~ .preview-component__code--tab-1,
+#tab-2:checked ~ .preview-component__code--tab-2 {
+  display: block;
+}
