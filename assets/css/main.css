@@ -29,14 +29,19 @@ html {
     --secondary-lighten: hsl(var(--secondary-h), var(--secondary-s), calc(var(--secondary-l) + 10%));
     --secondary-darken: hsl(var(--secondary-h), calc(var(--secondary-s) - 12%), calc(var(--secondary-l) - 13%));
     --pink: #F784AD;
+    --red: #F03D3E;
     --gray-1: #F8F9FA;
     --gray-2: #DDE2E5;
     --gray-3: #ACB5BD;
     --gray-4: #495057;
     --gray-5: #F9FAFC;
+    --gray-6: #C4C4C4;
 
     /* other */
-    --b-radius: 8px;
+    --b-radius-sm: 4px;
+    --b-radius-md: 8px;
+    --b-radius-lg: 10px;
+    --b-radius-xlg: 16px;
     --b-radius-half: 50%;
     --b-color: var(--gray-3);
     --half-opacity: .5;
