@@ -1,0 +1,31 @@
+.page {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+.page__main {
+  flex-grow: 1;
+  padding: 22px 0 32px;
+  background-color: var(--gray-5);
+}
+
+.page__main--component {
+  padding: 0;
+}
+
+.page__inner {
+  display: flex;
+}
+
+@media screen and (min-width: 992px) {
+  .page__main {
+    padding-top: 67px;
+    padding-bottom: 92px;
+  }
+
+  .page__main--component {
+    padding-top: 38px;
+    padding-bottom: 0;
+  }
+}
